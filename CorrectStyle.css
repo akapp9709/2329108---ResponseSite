@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, grey,  ivory 7% 93%, grey);
+}
+
+header {
+    border-style: ridge;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: 0;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+section {
+    border: 0;
+    border-bottom: 3px;
+    border-style:ridge;
+    border-radius: 5px;
+    padding : 10px;
+    padding-bottom: 2vh;
+    padding-top: 0;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    text-indent: 5vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#headingDiv {
+    display: flex;
+    flex-direction: row;
+}
