@@ -13,6 +13,7 @@ if(window.localStorage.getItem("butt1Val")){
 
 //Variables
 var clickMultiplier = clickMultiplier1;
+console.log(clickMultiplier);
 
 //End
 
@@ -30,6 +31,7 @@ function addMultiplier(mult, price){
     clickMultiplier1 *= 100;
     clickMultiplier1 = Math.round(clickMultiplier1);
     clickMultiplier1 /= 100;
+    clickMultiplier += clickMultiplier1;
     document.getElementById("multDisplay").innerHTML = 'Click Multiplier: ' + clickMultiplier;
     window.localStorage.setItem("butt1Val", clickMultiplier1);
 };
