@@ -7,7 +7,7 @@ if(window.localStorage.getItem("currentKey")){
     playerTotal = window.localStorage.getItem("currentKey");
 }
 
-if(!window.localStorage.getItem("butt1Val")){
+if(window.localStorage.getItem("butt1Val")){
     clickMultiplier1 = window.localStorage.getItem("butt1Val");
 }
 
