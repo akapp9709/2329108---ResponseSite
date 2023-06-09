@@ -13,7 +13,7 @@ if(window.localStorage.getItem("butt1Val")){
 
 //Variables
 var clickMultiplier = clickMultiplier1;
-console.log(clickMultiplier);
+console.log(clickMultiplier + "   " + clickMultiplier1);
 
 //End
 
